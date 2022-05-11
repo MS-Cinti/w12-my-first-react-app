@@ -16,7 +16,7 @@ const Beers = props => {
     console.log(<Beer info={list[0]} randomNum={a} key={100}/>)
     return (
         <div className="beers">
-            {list.map( (item, index) => <Beer info={item} randomNum={a} key={index}/>)}
+            {list.map( (item, index)  => <Beer info={item} randomNum={a} key={index}/>)}
         </div>
     )
 }
